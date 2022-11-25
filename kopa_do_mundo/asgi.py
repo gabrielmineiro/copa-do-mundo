@@ -1,5 +1,5 @@
 """
-ASGI config for django_kopa project.
+ASGI config for kopa_do_mundo project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.asgi import get_asgi_application
 
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "django_kopa.settings")
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "kopa_do_mundo.settings")
 
 application = get_asgi_application()
